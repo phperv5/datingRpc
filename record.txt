@@ -1,0 +1,2777 @@
+array (
+  1 => 
+  array (
+    1 => 
+    Workerman\Connection\TcpConnection::__set_state(array(
+       'onMessage' => 
+      array (
+        0 => 
+        GatewayWorker\Gateway::__set_state(array(
+           'lanIp' => '127.0.0.1',
+           'lanPort' => 2302,
+           'startPort' => 2300,
+           'registerAddress' => '127.0.0.1:1236',
+           'reloadable' => false,
+           'pingInterval' => 10,
+           'pingNotResponseLimit' => 0,
+           'pingData' => '{"type":"ping"}',
+           'secretKey' => '',
+           'router' => 
+          array (
+            0 => '\\GatewayWorker\\Gateway',
+            1 => 'routerBind',
+          ),
+           'protocolAccelerate' => false,
+           '_clientConnections' => 
+          array (
+            1 => NULL,
+          ),
+           '_uidConnections' => NULL,
+           '_groupConnections' => 
+          array (
+          ),
+           '_workerConnections' => 
+          array (
+            '127.0.0.1:ChatBusinessWorker:0' => 
+            Workerman\Connection\TcpConnection::__set_state(array(
+               'onMessage' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerMessage',
+              ),
+               'onClose' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerClose',
+              ),
+               'onError' => NULL,
+               'onBufferFull' => NULL,
+               'onBufferDrain' => NULL,
+               'protocol' => '\\Protocols\\GatewayProtocol',
+               'worker' => 
+              Workerman\Worker::__set_state(array(
+                 'id' => 0,
+                 'name' => 'none',
+                 'count' => 1,
+                 'user' => '',
+                 'group' => '',
+                 'reloadable' => true,
+                 'reusePort' => false,
+                 'onWorkerStart' => NULL,
+                 'onConnect' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerConnect',
+                ),
+                 'onMessage' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerMessage',
+                ),
+                 'onClose' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerClose',
+                ),
+                 'onError' => NULL,
+                 'onBufferFull' => NULL,
+                 'onBufferDrain' => NULL,
+                 'onWorkerStop' => NULL,
+                 'onWorkerReload' => NULL,
+                 'transport' => 'tcp',
+                 'connections' => 
+                array (
+                  2 => 
+                  Workerman\Connection\TcpConnection::__set_state(array(
+                     'onMessage' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerMessage',
+                    ),
+                     'onClose' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerClose',
+                    ),
+                     'onError' => NULL,
+                     'onBufferFull' => NULL,
+                     'onBufferDrain' => NULL,
+                     'protocol' => '\\Protocols\\GatewayProtocol',
+                     'worker' => NULL,
+                     'id' => 2,
+                     '_id' => 2,
+                     'maxSendBufferSize' => 52428800,
+                     '_socket' => NULL,
+                     '_sendBuffer' => '',
+                     '_recvBuffer' => '',
+                     '_currentPackageLength' => 0,
+                     '_status' => 2,
+                     '_remoteAddress' => '127.0.0.1:39698',
+                     '_isPaused' => false,
+                     'authorized' => true,
+                     'key' => '127.0.0.1:ChatBusinessWorker:3',
+                  )),
+                  3 => 
+                  Workerman\Connection\TcpConnection::__set_state(array(
+                     'onMessage' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerMessage',
+                    ),
+                     'onClose' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerClose',
+                    ),
+                     'onError' => NULL,
+                     'onBufferFull' => NULL,
+                     'onBufferDrain' => NULL,
+                     'protocol' => '\\Protocols\\GatewayProtocol',
+                     'worker' => NULL,
+                     'id' => 3,
+                     '_id' => 3,
+                     'maxSendBufferSize' => 52428800,
+                     '_socket' => NULL,
+                     '_sendBuffer' => '',
+                     '_recvBuffer' => '',
+                     '_currentPackageLength' => 0,
+                     '_status' => 2,
+                     '_remoteAddress' => '127.0.0.1:39706',
+                     '_isPaused' => false,
+                     'authorized' => true,
+                     'key' => '127.0.0.1:ChatBusinessWorker:1',
+                  )),
+                  4 => NULL,
+                  5 => 
+                  Workerman\Connection\TcpConnection::__set_state(array(
+                     'onMessage' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerMessage',
+                    ),
+                     'onClose' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerClose',
+                    ),
+                     'onError' => NULL,
+                     'onBufferFull' => NULL,
+                     'onBufferDrain' => NULL,
+                     'protocol' => '\\Protocols\\GatewayProtocol',
+                     'worker' => NULL,
+                     'id' => 5,
+                     '_id' => 5,
+                     'maxSendBufferSize' => 52428800,
+                     '_socket' => NULL,
+                     '_sendBuffer' => '',
+                     '_recvBuffer' => '',
+                     '_currentPackageLength' => 0,
+                     '_status' => 2,
+                     '_remoteAddress' => '127.0.0.1:39720',
+                     '_isPaused' => false,
+                     'authorized' => true,
+                     'key' => '127.0.0.1:ChatBusinessWorker:2',
+                  )),
+                ),
+                 'protocol' => '\\Protocols\\GatewayProtocol',
+                 '_autoloadRootPath' => '/alidata/www/datingRpc/GatewayWorker',
+                 '_mainSocket' => NULL,
+                 '_socketName' => 'GatewayProtocol://127.0.0.1:2302',
+                 '_context' => NULL,
+                 'workerId' => '0000000018a7fbdf0000000057914433',
+              )),
+               'id' => 4,
+               '_id' => 4,
+               'maxSendBufferSize' => 52428800,
+               '_socket' => NULL,
+               '_sendBuffer' => '',
+               '_recvBuffer' => '',
+               '_currentPackageLength' => 0,
+               '_status' => 2,
+               '_remoteAddress' => '127.0.0.1:39714',
+               '_isPaused' => false,
+               'authorized' => true,
+               'key' => '127.0.0.1:ChatBusinessWorker:0',
+            )),
+            '127.0.0.1:ChatBusinessWorker:1' => 
+            Workerman\Connection\TcpConnection::__set_state(array(
+               'onMessage' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerMessage',
+              ),
+               'onClose' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerClose',
+              ),
+               'onError' => NULL,
+               'onBufferFull' => NULL,
+               'onBufferDrain' => NULL,
+               'protocol' => '\\Protocols\\GatewayProtocol',
+               'worker' => 
+              Workerman\Worker::__set_state(array(
+                 'id' => 0,
+                 'name' => 'none',
+                 'count' => 1,
+                 'user' => '',
+                 'group' => '',
+                 'reloadable' => true,
+                 'reusePort' => false,
+                 'onWorkerStart' => NULL,
+                 'onConnect' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerConnect',
+                ),
+                 'onMessage' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerMessage',
+                ),
+                 'onClose' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerClose',
+                ),
+                 'onError' => NULL,
+                 'onBufferFull' => NULL,
+                 'onBufferDrain' => NULL,
+                 'onWorkerStop' => NULL,
+                 'onWorkerReload' => NULL,
+                 'transport' => 'tcp',
+                 'connections' => 
+                array (
+                  2 => 
+                  Workerman\Connection\TcpConnection::__set_state(array(
+                     'onMessage' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerMessage',
+                    ),
+                     'onClose' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerClose',
+                    ),
+                     'onError' => NULL,
+                     'onBufferFull' => NULL,
+                     'onBufferDrain' => NULL,
+                     'protocol' => '\\Protocols\\GatewayProtocol',
+                     'worker' => NULL,
+                     'id' => 2,
+                     '_id' => 2,
+                     'maxSendBufferSize' => 52428800,
+                     '_socket' => NULL,
+                     '_sendBuffer' => '',
+                     '_recvBuffer' => '',
+                     '_currentPackageLength' => 0,
+                     '_status' => 2,
+                     '_remoteAddress' => '127.0.0.1:39698',
+                     '_isPaused' => false,
+                     'authorized' => true,
+                     'key' => '127.0.0.1:ChatBusinessWorker:3',
+                  )),
+                  3 => NULL,
+                  4 => 
+                  Workerman\Connection\TcpConnection::__set_state(array(
+                     'onMessage' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerMessage',
+                    ),
+                     'onClose' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerClose',
+                    ),
+                     'onError' => NULL,
+                     'onBufferFull' => NULL,
+                     'onBufferDrain' => NULL,
+                     'protocol' => '\\Protocols\\GatewayProtocol',
+                     'worker' => NULL,
+                     'id' => 4,
+                     '_id' => 4,
+                     'maxSendBufferSize' => 52428800,
+                     '_socket' => NULL,
+                     '_sendBuffer' => '',
+                     '_recvBuffer' => '',
+                     '_currentPackageLength' => 0,
+                     '_status' => 2,
+                     '_remoteAddress' => '127.0.0.1:39714',
+                     '_isPaused' => false,
+                     'authorized' => true,
+                     'key' => '127.0.0.1:ChatBusinessWorker:0',
+                  )),
+                  5 => 
+                  Workerman\Connection\TcpConnection::__set_state(array(
+                     'onMessage' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerMessage',
+                    ),
+                     'onClose' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerClose',
+                    ),
+                     'onError' => NULL,
+                     'onBufferFull' => NULL,
+                     'onBufferDrain' => NULL,
+                     'protocol' => '\\Protocols\\GatewayProtocol',
+                     'worker' => NULL,
+                     'id' => 5,
+                     '_id' => 5,
+                     'maxSendBufferSize' => 52428800,
+                     '_socket' => NULL,
+                     '_sendBuffer' => '',
+                     '_recvBuffer' => '',
+                     '_currentPackageLength' => 0,
+                     '_status' => 2,
+                     '_remoteAddress' => '127.0.0.1:39720',
+                     '_isPaused' => false,
+                     'authorized' => true,
+                     'key' => '127.0.0.1:ChatBusinessWorker:2',
+                  )),
+                ),
+                 'protocol' => '\\Protocols\\GatewayProtocol',
+                 '_autoloadRootPath' => '/alidata/www/datingRpc/GatewayWorker',
+                 '_mainSocket' => NULL,
+                 '_socketName' => 'GatewayProtocol://127.0.0.1:2302',
+                 '_context' => NULL,
+                 'workerId' => '0000000018a7fbdf0000000057914433',
+              )),
+               'id' => 3,
+               '_id' => 3,
+               'maxSendBufferSize' => 52428800,
+               '_socket' => NULL,
+               '_sendBuffer' => '',
+               '_recvBuffer' => '',
+               '_currentPackageLength' => 0,
+               '_status' => 2,
+               '_remoteAddress' => '127.0.0.1:39706',
+               '_isPaused' => false,
+               'authorized' => true,
+               'key' => '127.0.0.1:ChatBusinessWorker:1',
+            )),
+            '127.0.0.1:ChatBusinessWorker:3' => 
+            Workerman\Connection\TcpConnection::__set_state(array(
+               'onMessage' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerMessage',
+              ),
+               'onClose' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerClose',
+              ),
+               'onError' => NULL,
+               'onBufferFull' => NULL,
+               'onBufferDrain' => NULL,
+               'protocol' => '\\Protocols\\GatewayProtocol',
+               'worker' => 
+              Workerman\Worker::__set_state(array(
+                 'id' => 0,
+                 'name' => 'none',
+                 'count' => 1,
+                 'user' => '',
+                 'group' => '',
+                 'reloadable' => true,
+                 'reusePort' => false,
+                 'onWorkerStart' => NULL,
+                 'onConnect' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerConnect',
+                ),
+                 'onMessage' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerMessage',
+                ),
+                 'onClose' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerClose',
+                ),
+                 'onError' => NULL,
+                 'onBufferFull' => NULL,
+                 'onBufferDrain' => NULL,
+                 'onWorkerStop' => NULL,
+                 'onWorkerReload' => NULL,
+                 'transport' => 'tcp',
+                 'connections' => 
+                array (
+                  2 => NULL,
+                  3 => 
+                  Workerman\Connection\TcpConnection::__set_state(array(
+                     'onMessage' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerMessage',
+                    ),
+                     'onClose' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerClose',
+                    ),
+                     'onError' => NULL,
+                     'onBufferFull' => NULL,
+                     'onBufferDrain' => NULL,
+                     'protocol' => '\\Protocols\\GatewayProtocol',
+                     'worker' => NULL,
+                     'id' => 3,
+                     '_id' => 3,
+                     'maxSendBufferSize' => 52428800,
+                     '_socket' => NULL,
+                     '_sendBuffer' => '',
+                     '_recvBuffer' => '',
+                     '_currentPackageLength' => 0,
+                     '_status' => 2,
+                     '_remoteAddress' => '127.0.0.1:39706',
+                     '_isPaused' => false,
+                     'authorized' => true,
+                     'key' => '127.0.0.1:ChatBusinessWorker:1',
+                  )),
+                  4 => 
+                  Workerman\Connection\TcpConnection::__set_state(array(
+                     'onMessage' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerMessage',
+                    ),
+                     'onClose' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerClose',
+                    ),
+                     'onError' => NULL,
+                     'onBufferFull' => NULL,
+                     'onBufferDrain' => NULL,
+                     'protocol' => '\\Protocols\\GatewayProtocol',
+                     'worker' => NULL,
+                     'id' => 4,
+                     '_id' => 4,
+                     'maxSendBufferSize' => 52428800,
+                     '_socket' => NULL,
+                     '_sendBuffer' => '',
+                     '_recvBuffer' => '',
+                     '_currentPackageLength' => 0,
+                     '_status' => 2,
+                     '_remoteAddress' => '127.0.0.1:39714',
+                     '_isPaused' => false,
+                     'authorized' => true,
+                     'key' => '127.0.0.1:ChatBusinessWorker:0',
+                  )),
+                  5 => 
+                  Workerman\Connection\TcpConnection::__set_state(array(
+                     'onMessage' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerMessage',
+                    ),
+                     'onClose' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerClose',
+                    ),
+                     'onError' => NULL,
+                     'onBufferFull' => NULL,
+                     'onBufferDrain' => NULL,
+                     'protocol' => '\\Protocols\\GatewayProtocol',
+                     'worker' => NULL,
+                     'id' => 5,
+                     '_id' => 5,
+                     'maxSendBufferSize' => 52428800,
+                     '_socket' => NULL,
+                     '_sendBuffer' => '',
+                     '_recvBuffer' => '',
+                     '_currentPackageLength' => 0,
+                     '_status' => 2,
+                     '_remoteAddress' => '127.0.0.1:39720',
+                     '_isPaused' => false,
+                     'authorized' => true,
+                     'key' => '127.0.0.1:ChatBusinessWorker:2',
+                  )),
+                ),
+                 'protocol' => '\\Protocols\\GatewayProtocol',
+                 '_autoloadRootPath' => '/alidata/www/datingRpc/GatewayWorker',
+                 '_mainSocket' => NULL,
+                 '_socketName' => 'GatewayProtocol://127.0.0.1:2302',
+                 '_context' => NULL,
+                 'workerId' => '0000000018a7fbdf0000000057914433',
+              )),
+               'id' => 2,
+               '_id' => 2,
+               'maxSendBufferSize' => 52428800,
+               '_socket' => NULL,
+               '_sendBuffer' => '',
+               '_recvBuffer' => '',
+               '_currentPackageLength' => 0,
+               '_status' => 2,
+               '_remoteAddress' => '127.0.0.1:39698',
+               '_isPaused' => false,
+               'authorized' => true,
+               'key' => '127.0.0.1:ChatBusinessWorker:3',
+            )),
+            '127.0.0.1:ChatBusinessWorker:2' => 
+            Workerman\Connection\TcpConnection::__set_state(array(
+               'onMessage' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerMessage',
+              ),
+               'onClose' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerClose',
+              ),
+               'onError' => NULL,
+               'onBufferFull' => NULL,
+               'onBufferDrain' => NULL,
+               'protocol' => '\\Protocols\\GatewayProtocol',
+               'worker' => 
+              Workerman\Worker::__set_state(array(
+                 'id' => 0,
+                 'name' => 'none',
+                 'count' => 1,
+                 'user' => '',
+                 'group' => '',
+                 'reloadable' => true,
+                 'reusePort' => false,
+                 'onWorkerStart' => NULL,
+                 'onConnect' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerConnect',
+                ),
+                 'onMessage' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerMessage',
+                ),
+                 'onClose' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerClose',
+                ),
+                 'onError' => NULL,
+                 'onBufferFull' => NULL,
+                 'onBufferDrain' => NULL,
+                 'onWorkerStop' => NULL,
+                 'onWorkerReload' => NULL,
+                 'transport' => 'tcp',
+                 'connections' => 
+                array (
+                  2 => 
+                  Workerman\Connection\TcpConnection::__set_state(array(
+                     'onMessage' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerMessage',
+                    ),
+                     'onClose' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerClose',
+                    ),
+                     'onError' => NULL,
+                     'onBufferFull' => NULL,
+                     'onBufferDrain' => NULL,
+                     'protocol' => '\\Protocols\\GatewayProtocol',
+                     'worker' => NULL,
+                     'id' => 2,
+                     '_id' => 2,
+                     'maxSendBufferSize' => 52428800,
+                     '_socket' => NULL,
+                     '_sendBuffer' => '',
+                     '_recvBuffer' => '',
+                     '_currentPackageLength' => 0,
+                     '_status' => 2,
+                     '_remoteAddress' => '127.0.0.1:39698',
+                     '_isPaused' => false,
+                     'authorized' => true,
+                     'key' => '127.0.0.1:ChatBusinessWorker:3',
+                  )),
+                  3 => 
+                  Workerman\Connection\TcpConnection::__set_state(array(
+                     'onMessage' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerMessage',
+                    ),
+                     'onClose' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerClose',
+                    ),
+                     'onError' => NULL,
+                     'onBufferFull' => NULL,
+                     'onBufferDrain' => NULL,
+                     'protocol' => '\\Protocols\\GatewayProtocol',
+                     'worker' => NULL,
+                     'id' => 3,
+                     '_id' => 3,
+                     'maxSendBufferSize' => 52428800,
+                     '_socket' => NULL,
+                     '_sendBuffer' => '',
+                     '_recvBuffer' => '',
+                     '_currentPackageLength' => 0,
+                     '_status' => 2,
+                     '_remoteAddress' => '127.0.0.1:39706',
+                     '_isPaused' => false,
+                     'authorized' => true,
+                     'key' => '127.0.0.1:ChatBusinessWorker:1',
+                  )),
+                  4 => 
+                  Workerman\Connection\TcpConnection::__set_state(array(
+                     'onMessage' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerMessage',
+                    ),
+                     'onClose' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerClose',
+                    ),
+                     'onError' => NULL,
+                     'onBufferFull' => NULL,
+                     'onBufferDrain' => NULL,
+                     'protocol' => '\\Protocols\\GatewayProtocol',
+                     'worker' => NULL,
+                     'id' => 4,
+                     '_id' => 4,
+                     'maxSendBufferSize' => 52428800,
+                     '_socket' => NULL,
+                     '_sendBuffer' => '',
+                     '_recvBuffer' => '',
+                     '_currentPackageLength' => 0,
+                     '_status' => 2,
+                     '_remoteAddress' => '127.0.0.1:39714',
+                     '_isPaused' => false,
+                     'authorized' => true,
+                     'key' => '127.0.0.1:ChatBusinessWorker:0',
+                  )),
+                  5 => NULL,
+                ),
+                 'protocol' => '\\Protocols\\GatewayProtocol',
+                 '_autoloadRootPath' => '/alidata/www/datingRpc/GatewayWorker',
+                 '_mainSocket' => NULL,
+                 '_socketName' => 'GatewayProtocol://127.0.0.1:2302',
+                 '_context' => NULL,
+                 'workerId' => '0000000018a7fbdf0000000057914433',
+              )),
+               'id' => 5,
+               '_id' => 5,
+               'maxSendBufferSize' => 52428800,
+               '_socket' => NULL,
+               '_sendBuffer' => '',
+               '_recvBuffer' => '',
+               '_currentPackageLength' => 0,
+               '_status' => 2,
+               '_remoteAddress' => '127.0.0.1:39720',
+               '_isPaused' => false,
+               'authorized' => true,
+               'key' => '127.0.0.1:ChatBusinessWorker:2',
+            )),
+          ),
+           '_innerTcpWorker' => 
+          Workerman\Worker::__set_state(array(
+             'id' => 0,
+             'name' => 'none',
+             'count' => 1,
+             'user' => '',
+             'group' => '',
+             'reloadable' => true,
+             'reusePort' => false,
+             'onWorkerStart' => NULL,
+             'onConnect' => 
+            array (
+              0 => NULL,
+              1 => 'onWorkerConnect',
+            ),
+             'onMessage' => 
+            array (
+              0 => NULL,
+              1 => 'onWorkerMessage',
+            ),
+             'onClose' => 
+            array (
+              0 => NULL,
+              1 => 'onWorkerClose',
+            ),
+             'onError' => NULL,
+             'onBufferFull' => NULL,
+             'onBufferDrain' => NULL,
+             'onWorkerStop' => NULL,
+             'onWorkerReload' => NULL,
+             'transport' => 'tcp',
+             'connections' => 
+            array (
+              2 => 
+              Workerman\Connection\TcpConnection::__set_state(array(
+                 'onMessage' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerMessage',
+                ),
+                 'onClose' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerClose',
+                ),
+                 'onError' => NULL,
+                 'onBufferFull' => NULL,
+                 'onBufferDrain' => NULL,
+                 'protocol' => '\\Protocols\\GatewayProtocol',
+                 'worker' => NULL,
+                 'id' => 2,
+                 '_id' => 2,
+                 'maxSendBufferSize' => 52428800,
+                 '_socket' => NULL,
+                 '_sendBuffer' => '',
+                 '_recvBuffer' => '',
+                 '_currentPackageLength' => 0,
+                 '_status' => 2,
+                 '_remoteAddress' => '127.0.0.1:39698',
+                 '_isPaused' => false,
+                 'authorized' => true,
+                 'key' => '127.0.0.1:ChatBusinessWorker:3',
+              )),
+              3 => 
+              Workerman\Connection\TcpConnection::__set_state(array(
+                 'onMessage' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerMessage',
+                ),
+                 'onClose' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerClose',
+                ),
+                 'onError' => NULL,
+                 'onBufferFull' => NULL,
+                 'onBufferDrain' => NULL,
+                 'protocol' => '\\Protocols\\GatewayProtocol',
+                 'worker' => NULL,
+                 'id' => 3,
+                 '_id' => 3,
+                 'maxSendBufferSize' => 52428800,
+                 '_socket' => NULL,
+                 '_sendBuffer' => '',
+                 '_recvBuffer' => '',
+                 '_currentPackageLength' => 0,
+                 '_status' => 2,
+                 '_remoteAddress' => '127.0.0.1:39706',
+                 '_isPaused' => false,
+                 'authorized' => true,
+                 'key' => '127.0.0.1:ChatBusinessWorker:1',
+              )),
+              4 => 
+              Workerman\Connection\TcpConnection::__set_state(array(
+                 'onMessage' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerMessage',
+                ),
+                 'onClose' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerClose',
+                ),
+                 'onError' => NULL,
+                 'onBufferFull' => NULL,
+                 'onBufferDrain' => NULL,
+                 'protocol' => '\\Protocols\\GatewayProtocol',
+                 'worker' => NULL,
+                 'id' => 4,
+                 '_id' => 4,
+                 'maxSendBufferSize' => 52428800,
+                 '_socket' => NULL,
+                 '_sendBuffer' => '',
+                 '_recvBuffer' => '',
+                 '_currentPackageLength' => 0,
+                 '_status' => 2,
+                 '_remoteAddress' => '127.0.0.1:39714',
+                 '_isPaused' => false,
+                 'authorized' => true,
+                 'key' => '127.0.0.1:ChatBusinessWorker:0',
+              )),
+              5 => 
+              Workerman\Connection\TcpConnection::__set_state(array(
+                 'onMessage' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerMessage',
+                ),
+                 'onClose' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerClose',
+                ),
+                 'onError' => NULL,
+                 'onBufferFull' => NULL,
+                 'onBufferDrain' => NULL,
+                 'protocol' => '\\Protocols\\GatewayProtocol',
+                 'worker' => NULL,
+                 'id' => 5,
+                 '_id' => 5,
+                 'maxSendBufferSize' => 52428800,
+                 '_socket' => NULL,
+                 '_sendBuffer' => '',
+                 '_recvBuffer' => '',
+                 '_currentPackageLength' => 0,
+                 '_status' => 2,
+                 '_remoteAddress' => '127.0.0.1:39720',
+                 '_isPaused' => false,
+                 'authorized' => true,
+                 'key' => '127.0.0.1:ChatBusinessWorker:2',
+              )),
+            ),
+             'protocol' => '\\Protocols\\GatewayProtocol',
+             '_autoloadRootPath' => '/alidata/www/datingRpc/GatewayWorker',
+             '_mainSocket' => NULL,
+             '_socketName' => 'GatewayProtocol://127.0.0.1:2302',
+             '_context' => NULL,
+             'workerId' => '0000000018a7fbdf0000000057914433',
+          )),
+           '_onWorkerStart' => NULL,
+           '_onConnect' => NULL,
+           '_onMessage' => NULL,
+           '_onClose' => NULL,
+           '_onWorkerStop' => NULL,
+           '_startTime' => 1481182329,
+           '_gatewayPort' => '7272',
+           '_registerConnection' => 
+          Workerman\Connection\AsyncTcpConnection::__set_state(array(
+             'onConnect' => NULL,
+             '_status' => 2,
+             'onMessage' => NULL,
+             'onClose' => 
+            array (
+              0 => NULL,
+              1 => 'onRegisterConnectionClose',
+            ),
+             'onError' => NULL,
+             'onBufferFull' => NULL,
+             'onBufferDrain' => NULL,
+             'protocol' => '\\Workerman\\Protocols\\Text',
+             'worker' => NULL,
+             'id' => 1,
+             '_id' => 0,
+             'maxSendBufferSize' => 1048576,
+             '_socket' => NULL,
+             '_sendBuffer' => '',
+             '_recvBuffer' => '',
+             '_currentPackageLength' => 0,
+             '_remoteAddress' => '127.0.0.1:1236',
+             '_isPaused' => false,
+          )),
+           'id' => 2,
+           'name' => 'ChatGateway',
+           'count' => 4,
+           'user' => 'root',
+           'group' => '',
+           'reusePort' => false,
+           'onWorkerStart' => 
+          array (
+            0 => NULL,
+            1 => 'onWorkerStart',
+          ),
+           'onConnect' => 
+          array (
+            0 => NULL,
+            1 => 'onClientConnect',
+          ),
+           'onMessage' => NULL,
+           'onClose' => 
+          array (
+            0 => NULL,
+            1 => 'onClientClose',
+          ),
+           'onError' => NULL,
+           'onBufferFull' => NULL,
+           'onBufferDrain' => NULL,
+           'onWorkerStop' => 
+          array (
+            0 => NULL,
+            1 => 'onWorkerStop',
+          ),
+           'onWorkerReload' => NULL,
+           'transport' => 'tcp',
+           'connections' => 
+          array (
+            6 => NULL,
+          ),
+           'protocol' => '\\Workerman\\Protocols\\Websocket',
+           '_autoloadRootPath' => '/alidata/www/datingRpc/Applications/Chat',
+           '_mainSocket' => NULL,
+           '_socketName' => 'Websocket://0.0.0.0:7272',
+           '_context' => NULL,
+           'workerId' => '0000000018a7fbcc0000000057914433',
+        )),
+        1 => 'onClientMessage',
+      ),
+       'onClose' => 
+      array (
+        0 => 
+        GatewayWorker\Gateway::__set_state(array(
+           'lanIp' => '127.0.0.1',
+           'lanPort' => 2302,
+           'startPort' => 2300,
+           'registerAddress' => '127.0.0.1:1236',
+           'reloadable' => false,
+           'pingInterval' => 10,
+           'pingNotResponseLimit' => 0,
+           'pingData' => '{"type":"ping"}',
+           'secretKey' => '',
+           'router' => 
+          array (
+            0 => '\\GatewayWorker\\Gateway',
+            1 => 'routerBind',
+          ),
+           'protocolAccelerate' => false,
+           '_clientConnections' => 
+          array (
+            1 => NULL,
+          ),
+           '_uidConnections' => NULL,
+           '_groupConnections' => 
+          array (
+          ),
+           '_workerConnections' => 
+          array (
+            '127.0.0.1:ChatBusinessWorker:0' => 
+            Workerman\Connection\TcpConnection::__set_state(array(
+               'onMessage' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerMessage',
+              ),
+               'onClose' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerClose',
+              ),
+               'onError' => NULL,
+               'onBufferFull' => NULL,
+               'onBufferDrain' => NULL,
+               'protocol' => '\\Protocols\\GatewayProtocol',
+               'worker' => 
+              Workerman\Worker::__set_state(array(
+                 'id' => 0,
+                 'name' => 'none',
+                 'count' => 1,
+                 'user' => '',
+                 'group' => '',
+                 'reloadable' => true,
+                 'reusePort' => false,
+                 'onWorkerStart' => NULL,
+                 'onConnect' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerConnect',
+                ),
+                 'onMessage' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerMessage',
+                ),
+                 'onClose' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerClose',
+                ),
+                 'onError' => NULL,
+                 'onBufferFull' => NULL,
+                 'onBufferDrain' => NULL,
+                 'onWorkerStop' => NULL,
+                 'onWorkerReload' => NULL,
+                 'transport' => 'tcp',
+                 'connections' => 
+                array (
+                  2 => 
+                  Workerman\Connection\TcpConnection::__set_state(array(
+                     'onMessage' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerMessage',
+                    ),
+                     'onClose' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerClose',
+                    ),
+                     'onError' => NULL,
+                     'onBufferFull' => NULL,
+                     'onBufferDrain' => NULL,
+                     'protocol' => '\\Protocols\\GatewayProtocol',
+                     'worker' => NULL,
+                     'id' => 2,
+                     '_id' => 2,
+                     'maxSendBufferSize' => 52428800,
+                     '_socket' => NULL,
+                     '_sendBuffer' => '',
+                     '_recvBuffer' => '',
+                     '_currentPackageLength' => 0,
+                     '_status' => 2,
+                     '_remoteAddress' => '127.0.0.1:39698',
+                     '_isPaused' => false,
+                     'authorized' => true,
+                     'key' => '127.0.0.1:ChatBusinessWorker:3',
+                  )),
+                  3 => 
+                  Workerman\Connection\TcpConnection::__set_state(array(
+                     'onMessage' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerMessage',
+                    ),
+                     'onClose' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerClose',
+                    ),
+                     'onError' => NULL,
+                     'onBufferFull' => NULL,
+                     'onBufferDrain' => NULL,
+                     'protocol' => '\\Protocols\\GatewayProtocol',
+                     'worker' => NULL,
+                     'id' => 3,
+                     '_id' => 3,
+                     'maxSendBufferSize' => 52428800,
+                     '_socket' => NULL,
+                     '_sendBuffer' => '',
+                     '_recvBuffer' => '',
+                     '_currentPackageLength' => 0,
+                     '_status' => 2,
+                     '_remoteAddress' => '127.0.0.1:39706',
+                     '_isPaused' => false,
+                     'authorized' => true,
+                     'key' => '127.0.0.1:ChatBusinessWorker:1',
+                  )),
+                  4 => NULL,
+                  5 => 
+                  Workerman\Connection\TcpConnection::__set_state(array(
+                     'onMessage' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerMessage',
+                    ),
+                     'onClose' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerClose',
+                    ),
+                     'onError' => NULL,
+                     'onBufferFull' => NULL,
+                     'onBufferDrain' => NULL,
+                     'protocol' => '\\Protocols\\GatewayProtocol',
+                     'worker' => NULL,
+                     'id' => 5,
+                     '_id' => 5,
+                     'maxSendBufferSize' => 52428800,
+                     '_socket' => NULL,
+                     '_sendBuffer' => '',
+                     '_recvBuffer' => '',
+                     '_currentPackageLength' => 0,
+                     '_status' => 2,
+                     '_remoteAddress' => '127.0.0.1:39720',
+                     '_isPaused' => false,
+                     'authorized' => true,
+                     'key' => '127.0.0.1:ChatBusinessWorker:2',
+                  )),
+                ),
+                 'protocol' => '\\Protocols\\GatewayProtocol',
+                 '_autoloadRootPath' => '/alidata/www/datingRpc/GatewayWorker',
+                 '_mainSocket' => NULL,
+                 '_socketName' => 'GatewayProtocol://127.0.0.1:2302',
+                 '_context' => NULL,
+                 'workerId' => '0000000018a7fbdf0000000057914433',
+              )),
+               'id' => 4,
+               '_id' => 4,
+               'maxSendBufferSize' => 52428800,
+               '_socket' => NULL,
+               '_sendBuffer' => '',
+               '_recvBuffer' => '',
+               '_currentPackageLength' => 0,
+               '_status' => 2,
+               '_remoteAddress' => '127.0.0.1:39714',
+               '_isPaused' => false,
+               'authorized' => true,
+               'key' => '127.0.0.1:ChatBusinessWorker:0',
+            )),
+            '127.0.0.1:ChatBusinessWorker:1' => 
+            Workerman\Connection\TcpConnection::__set_state(array(
+               'onMessage' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerMessage',
+              ),
+               'onClose' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerClose',
+              ),
+               'onError' => NULL,
+               'onBufferFull' => NULL,
+               'onBufferDrain' => NULL,
+               'protocol' => '\\Protocols\\GatewayProtocol',
+               'worker' => 
+              Workerman\Worker::__set_state(array(
+                 'id' => 0,
+                 'name' => 'none',
+                 'count' => 1,
+                 'user' => '',
+                 'group' => '',
+                 'reloadable' => true,
+                 'reusePort' => false,
+                 'onWorkerStart' => NULL,
+                 'onConnect' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerConnect',
+                ),
+                 'onMessage' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerMessage',
+                ),
+                 'onClose' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerClose',
+                ),
+                 'onError' => NULL,
+                 'onBufferFull' => NULL,
+                 'onBufferDrain' => NULL,
+                 'onWorkerStop' => NULL,
+                 'onWorkerReload' => NULL,
+                 'transport' => 'tcp',
+                 'connections' => 
+                array (
+                  2 => 
+                  Workerman\Connection\TcpConnection::__set_state(array(
+                     'onMessage' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerMessage',
+                    ),
+                     'onClose' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerClose',
+                    ),
+                     'onError' => NULL,
+                     'onBufferFull' => NULL,
+                     'onBufferDrain' => NULL,
+                     'protocol' => '\\Protocols\\GatewayProtocol',
+                     'worker' => NULL,
+                     'id' => 2,
+                     '_id' => 2,
+                     'maxSendBufferSize' => 52428800,
+                     '_socket' => NULL,
+                     '_sendBuffer' => '',
+                     '_recvBuffer' => '',
+                     '_currentPackageLength' => 0,
+                     '_status' => 2,
+                     '_remoteAddress' => '127.0.0.1:39698',
+                     '_isPaused' => false,
+                     'authorized' => true,
+                     'key' => '127.0.0.1:ChatBusinessWorker:3',
+                  )),
+                  3 => NULL,
+                  4 => 
+                  Workerman\Connection\TcpConnection::__set_state(array(
+                     'onMessage' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerMessage',
+                    ),
+                     'onClose' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerClose',
+                    ),
+                     'onError' => NULL,
+                     'onBufferFull' => NULL,
+                     'onBufferDrain' => NULL,
+                     'protocol' => '\\Protocols\\GatewayProtocol',
+                     'worker' => NULL,
+                     'id' => 4,
+                     '_id' => 4,
+                     'maxSendBufferSize' => 52428800,
+                     '_socket' => NULL,
+                     '_sendBuffer' => '',
+                     '_recvBuffer' => '',
+                     '_currentPackageLength' => 0,
+                     '_status' => 2,
+                     '_remoteAddress' => '127.0.0.1:39714',
+                     '_isPaused' => false,
+                     'authorized' => true,
+                     'key' => '127.0.0.1:ChatBusinessWorker:0',
+                  )),
+                  5 => 
+                  Workerman\Connection\TcpConnection::__set_state(array(
+                     'onMessage' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerMessage',
+                    ),
+                     'onClose' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerClose',
+                    ),
+                     'onError' => NULL,
+                     'onBufferFull' => NULL,
+                     'onBufferDrain' => NULL,
+                     'protocol' => '\\Protocols\\GatewayProtocol',
+                     'worker' => NULL,
+                     'id' => 5,
+                     '_id' => 5,
+                     'maxSendBufferSize' => 52428800,
+                     '_socket' => NULL,
+                     '_sendBuffer' => '',
+                     '_recvBuffer' => '',
+                     '_currentPackageLength' => 0,
+                     '_status' => 2,
+                     '_remoteAddress' => '127.0.0.1:39720',
+                     '_isPaused' => false,
+                     'authorized' => true,
+                     'key' => '127.0.0.1:ChatBusinessWorker:2',
+                  )),
+                ),
+                 'protocol' => '\\Protocols\\GatewayProtocol',
+                 '_autoloadRootPath' => '/alidata/www/datingRpc/GatewayWorker',
+                 '_mainSocket' => NULL,
+                 '_socketName' => 'GatewayProtocol://127.0.0.1:2302',
+                 '_context' => NULL,
+                 'workerId' => '0000000018a7fbdf0000000057914433',
+              )),
+               'id' => 3,
+               '_id' => 3,
+               'maxSendBufferSize' => 52428800,
+               '_socket' => NULL,
+               '_sendBuffer' => '',
+               '_recvBuffer' => '',
+               '_currentPackageLength' => 0,
+               '_status' => 2,
+               '_remoteAddress' => '127.0.0.1:39706',
+               '_isPaused' => false,
+               'authorized' => true,
+               'key' => '127.0.0.1:ChatBusinessWorker:1',
+            )),
+            '127.0.0.1:ChatBusinessWorker:3' => 
+            Workerman\Connection\TcpConnection::__set_state(array(
+               'onMessage' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerMessage',
+              ),
+               'onClose' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerClose',
+              ),
+               'onError' => NULL,
+               'onBufferFull' => NULL,
+               'onBufferDrain' => NULL,
+               'protocol' => '\\Protocols\\GatewayProtocol',
+               'worker' => 
+              Workerman\Worker::__set_state(array(
+                 'id' => 0,
+                 'name' => 'none',
+                 'count' => 1,
+                 'user' => '',
+                 'group' => '',
+                 'reloadable' => true,
+                 'reusePort' => false,
+                 'onWorkerStart' => NULL,
+                 'onConnect' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerConnect',
+                ),
+                 'onMessage' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerMessage',
+                ),
+                 'onClose' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerClose',
+                ),
+                 'onError' => NULL,
+                 'onBufferFull' => NULL,
+                 'onBufferDrain' => NULL,
+                 'onWorkerStop' => NULL,
+                 'onWorkerReload' => NULL,
+                 'transport' => 'tcp',
+                 'connections' => 
+                array (
+                  2 => NULL,
+                  3 => 
+                  Workerman\Connection\TcpConnection::__set_state(array(
+                     'onMessage' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerMessage',
+                    ),
+                     'onClose' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerClose',
+                    ),
+                     'onError' => NULL,
+                     'onBufferFull' => NULL,
+                     'onBufferDrain' => NULL,
+                     'protocol' => '\\Protocols\\GatewayProtocol',
+                     'worker' => NULL,
+                     'id' => 3,
+                     '_id' => 3,
+                     'maxSendBufferSize' => 52428800,
+                     '_socket' => NULL,
+                     '_sendBuffer' => '',
+                     '_recvBuffer' => '',
+                     '_currentPackageLength' => 0,
+                     '_status' => 2,
+                     '_remoteAddress' => '127.0.0.1:39706',
+                     '_isPaused' => false,
+                     'authorized' => true,
+                     'key' => '127.0.0.1:ChatBusinessWorker:1',
+                  )),
+                  4 => 
+                  Workerman\Connection\TcpConnection::__set_state(array(
+                     'onMessage' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerMessage',
+                    ),
+                     'onClose' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerClose',
+                    ),
+                     'onError' => NULL,
+                     'onBufferFull' => NULL,
+                     'onBufferDrain' => NULL,
+                     'protocol' => '\\Protocols\\GatewayProtocol',
+                     'worker' => NULL,
+                     'id' => 4,
+                     '_id' => 4,
+                     'maxSendBufferSize' => 52428800,
+                     '_socket' => NULL,
+                     '_sendBuffer' => '',
+                     '_recvBuffer' => '',
+                     '_currentPackageLength' => 0,
+                     '_status' => 2,
+                     '_remoteAddress' => '127.0.0.1:39714',
+                     '_isPaused' => false,
+                     'authorized' => true,
+                     'key' => '127.0.0.1:ChatBusinessWorker:0',
+                  )),
+                  5 => 
+                  Workerman\Connection\TcpConnection::__set_state(array(
+                     'onMessage' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerMessage',
+                    ),
+                     'onClose' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerClose',
+                    ),
+                     'onError' => NULL,
+                     'onBufferFull' => NULL,
+                     'onBufferDrain' => NULL,
+                     'protocol' => '\\Protocols\\GatewayProtocol',
+                     'worker' => NULL,
+                     'id' => 5,
+                     '_id' => 5,
+                     'maxSendBufferSize' => 52428800,
+                     '_socket' => NULL,
+                     '_sendBuffer' => '',
+                     '_recvBuffer' => '',
+                     '_currentPackageLength' => 0,
+                     '_status' => 2,
+                     '_remoteAddress' => '127.0.0.1:39720',
+                     '_isPaused' => false,
+                     'authorized' => true,
+                     'key' => '127.0.0.1:ChatBusinessWorker:2',
+                  )),
+                ),
+                 'protocol' => '\\Protocols\\GatewayProtocol',
+                 '_autoloadRootPath' => '/alidata/www/datingRpc/GatewayWorker',
+                 '_mainSocket' => NULL,
+                 '_socketName' => 'GatewayProtocol://127.0.0.1:2302',
+                 '_context' => NULL,
+                 'workerId' => '0000000018a7fbdf0000000057914433',
+              )),
+               'id' => 2,
+               '_id' => 2,
+               'maxSendBufferSize' => 52428800,
+               '_socket' => NULL,
+               '_sendBuffer' => '',
+               '_recvBuffer' => '',
+               '_currentPackageLength' => 0,
+               '_status' => 2,
+               '_remoteAddress' => '127.0.0.1:39698',
+               '_isPaused' => false,
+               'authorized' => true,
+               'key' => '127.0.0.1:ChatBusinessWorker:3',
+            )),
+            '127.0.0.1:ChatBusinessWorker:2' => 
+            Workerman\Connection\TcpConnection::__set_state(array(
+               'onMessage' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerMessage',
+              ),
+               'onClose' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerClose',
+              ),
+               'onError' => NULL,
+               'onBufferFull' => NULL,
+               'onBufferDrain' => NULL,
+               'protocol' => '\\Protocols\\GatewayProtocol',
+               'worker' => 
+              Workerman\Worker::__set_state(array(
+                 'id' => 0,
+                 'name' => 'none',
+                 'count' => 1,
+                 'user' => '',
+                 'group' => '',
+                 'reloadable' => true,
+                 'reusePort' => false,
+                 'onWorkerStart' => NULL,
+                 'onConnect' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerConnect',
+                ),
+                 'onMessage' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerMessage',
+                ),
+                 'onClose' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerClose',
+                ),
+                 'onError' => NULL,
+                 'onBufferFull' => NULL,
+                 'onBufferDrain' => NULL,
+                 'onWorkerStop' => NULL,
+                 'onWorkerReload' => NULL,
+                 'transport' => 'tcp',
+                 'connections' => 
+                array (
+                  2 => 
+                  Workerman\Connection\TcpConnection::__set_state(array(
+                     'onMessage' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerMessage',
+                    ),
+                     'onClose' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerClose',
+                    ),
+                     'onError' => NULL,
+                     'onBufferFull' => NULL,
+                     'onBufferDrain' => NULL,
+                     'protocol' => '\\Protocols\\GatewayProtocol',
+                     'worker' => NULL,
+                     'id' => 2,
+                     '_id' => 2,
+                     'maxSendBufferSize' => 52428800,
+                     '_socket' => NULL,
+                     '_sendBuffer' => '',
+                     '_recvBuffer' => '',
+                     '_currentPackageLength' => 0,
+                     '_status' => 2,
+                     '_remoteAddress' => '127.0.0.1:39698',
+                     '_isPaused' => false,
+                     'authorized' => true,
+                     'key' => '127.0.0.1:ChatBusinessWorker:3',
+                  )),
+                  3 => 
+                  Workerman\Connection\TcpConnection::__set_state(array(
+                     'onMessage' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerMessage',
+                    ),
+                     'onClose' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerClose',
+                    ),
+                     'onError' => NULL,
+                     'onBufferFull' => NULL,
+                     'onBufferDrain' => NULL,
+                     'protocol' => '\\Protocols\\GatewayProtocol',
+                     'worker' => NULL,
+                     'id' => 3,
+                     '_id' => 3,
+                     'maxSendBufferSize' => 52428800,
+                     '_socket' => NULL,
+                     '_sendBuffer' => '',
+                     '_recvBuffer' => '',
+                     '_currentPackageLength' => 0,
+                     '_status' => 2,
+                     '_remoteAddress' => '127.0.0.1:39706',
+                     '_isPaused' => false,
+                     'authorized' => true,
+                     'key' => '127.0.0.1:ChatBusinessWorker:1',
+                  )),
+                  4 => 
+                  Workerman\Connection\TcpConnection::__set_state(array(
+                     'onMessage' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerMessage',
+                    ),
+                     'onClose' => 
+                    array (
+                      0 => NULL,
+                      1 => 'onWorkerClose',
+                    ),
+                     'onError' => NULL,
+                     'onBufferFull' => NULL,
+                     'onBufferDrain' => NULL,
+                     'protocol' => '\\Protocols\\GatewayProtocol',
+                     'worker' => NULL,
+                     'id' => 4,
+                     '_id' => 4,
+                     'maxSendBufferSize' => 52428800,
+                     '_socket' => NULL,
+                     '_sendBuffer' => '',
+                     '_recvBuffer' => '',
+                     '_currentPackageLength' => 0,
+                     '_status' => 2,
+                     '_remoteAddress' => '127.0.0.1:39714',
+                     '_isPaused' => false,
+                     'authorized' => true,
+                     'key' => '127.0.0.1:ChatBusinessWorker:0',
+                  )),
+                  5 => NULL,
+                ),
+                 'protocol' => '\\Protocols\\GatewayProtocol',
+                 '_autoloadRootPath' => '/alidata/www/datingRpc/GatewayWorker',
+                 '_mainSocket' => NULL,
+                 '_socketName' => 'GatewayProtocol://127.0.0.1:2302',
+                 '_context' => NULL,
+                 'workerId' => '0000000018a7fbdf0000000057914433',
+              )),
+               'id' => 5,
+               '_id' => 5,
+               'maxSendBufferSize' => 52428800,
+               '_socket' => NULL,
+               '_sendBuffer' => '',
+               '_recvBuffer' => '',
+               '_currentPackageLength' => 0,
+               '_status' => 2,
+               '_remoteAddress' => '127.0.0.1:39720',
+               '_isPaused' => false,
+               'authorized' => true,
+               'key' => '127.0.0.1:ChatBusinessWorker:2',
+            )),
+          ),
+           '_innerTcpWorker' => 
+          Workerman\Worker::__set_state(array(
+             'id' => 0,
+             'name' => 'none',
+             'count' => 1,
+             'user' => '',
+             'group' => '',
+             'reloadable' => true,
+             'reusePort' => false,
+             'onWorkerStart' => NULL,
+             'onConnect' => 
+            array (
+              0 => NULL,
+              1 => 'onWorkerConnect',
+            ),
+             'onMessage' => 
+            array (
+              0 => NULL,
+              1 => 'onWorkerMessage',
+            ),
+             'onClose' => 
+            array (
+              0 => NULL,
+              1 => 'onWorkerClose',
+            ),
+             'onError' => NULL,
+             'onBufferFull' => NULL,
+             'onBufferDrain' => NULL,
+             'onWorkerStop' => NULL,
+             'onWorkerReload' => NULL,
+             'transport' => 'tcp',
+             'connections' => 
+            array (
+              2 => 
+              Workerman\Connection\TcpConnection::__set_state(array(
+                 'onMessage' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerMessage',
+                ),
+                 'onClose' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerClose',
+                ),
+                 'onError' => NULL,
+                 'onBufferFull' => NULL,
+                 'onBufferDrain' => NULL,
+                 'protocol' => '\\Protocols\\GatewayProtocol',
+                 'worker' => NULL,
+                 'id' => 2,
+                 '_id' => 2,
+                 'maxSendBufferSize' => 52428800,
+                 '_socket' => NULL,
+                 '_sendBuffer' => '',
+                 '_recvBuffer' => '',
+                 '_currentPackageLength' => 0,
+                 '_status' => 2,
+                 '_remoteAddress' => '127.0.0.1:39698',
+                 '_isPaused' => false,
+                 'authorized' => true,
+                 'key' => '127.0.0.1:ChatBusinessWorker:3',
+              )),
+              3 => 
+              Workerman\Connection\TcpConnection::__set_state(array(
+                 'onMessage' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerMessage',
+                ),
+                 'onClose' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerClose',
+                ),
+                 'onError' => NULL,
+                 'onBufferFull' => NULL,
+                 'onBufferDrain' => NULL,
+                 'protocol' => '\\Protocols\\GatewayProtocol',
+                 'worker' => NULL,
+                 'id' => 3,
+                 '_id' => 3,
+                 'maxSendBufferSize' => 52428800,
+                 '_socket' => NULL,
+                 '_sendBuffer' => '',
+                 '_recvBuffer' => '',
+                 '_currentPackageLength' => 0,
+                 '_status' => 2,
+                 '_remoteAddress' => '127.0.0.1:39706',
+                 '_isPaused' => false,
+                 'authorized' => true,
+                 'key' => '127.0.0.1:ChatBusinessWorker:1',
+              )),
+              4 => 
+              Workerman\Connection\TcpConnection::__set_state(array(
+                 'onMessage' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerMessage',
+                ),
+                 'onClose' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerClose',
+                ),
+                 'onError' => NULL,
+                 'onBufferFull' => NULL,
+                 'onBufferDrain' => NULL,
+                 'protocol' => '\\Protocols\\GatewayProtocol',
+                 'worker' => NULL,
+                 'id' => 4,
+                 '_id' => 4,
+                 'maxSendBufferSize' => 52428800,
+                 '_socket' => NULL,
+                 '_sendBuffer' => '',
+                 '_recvBuffer' => '',
+                 '_currentPackageLength' => 0,
+                 '_status' => 2,
+                 '_remoteAddress' => '127.0.0.1:39714',
+                 '_isPaused' => false,
+                 'authorized' => true,
+                 'key' => '127.0.0.1:ChatBusinessWorker:0',
+              )),
+              5 => 
+              Workerman\Connection\TcpConnection::__set_state(array(
+                 'onMessage' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerMessage',
+                ),
+                 'onClose' => 
+                array (
+                  0 => NULL,
+                  1 => 'onWorkerClose',
+                ),
+                 'onError' => NULL,
+                 'onBufferFull' => NULL,
+                 'onBufferDrain' => NULL,
+                 'protocol' => '\\Protocols\\GatewayProtocol',
+                 'worker' => NULL,
+                 'id' => 5,
+                 '_id' => 5,
+                 'maxSendBufferSize' => 52428800,
+                 '_socket' => NULL,
+                 '_sendBuffer' => '',
+                 '_recvBuffer' => '',
+                 '_currentPackageLength' => 0,
+                 '_status' => 2,
+                 '_remoteAddress' => '127.0.0.1:39720',
+                 '_isPaused' => false,
+                 'authorized' => true,
+                 'key' => '127.0.0.1:ChatBusinessWorker:2',
+              )),
+            ),
+             'protocol' => '\\Protocols\\GatewayProtocol',
+             '_autoloadRootPath' => '/alidata/www/datingRpc/GatewayWorker',
+             '_mainSocket' => NULL,
+             '_socketName' => 'GatewayProtocol://127.0.0.1:2302',
+             '_context' => NULL,
+             'workerId' => '0000000018a7fbdf0000000057914433',
+          )),
+           '_onWorkerStart' => NULL,
+           '_onConnect' => NULL,
+           '_onMessage' => NULL,
+           '_onClose' => NULL,
+           '_onWorkerStop' => NULL,
+           '_startTime' => 1481182329,
+           '_gatewayPort' => '7272',
+           '_registerConnection' => 
+          Workerman\Connection\AsyncTcpConnection::__set_state(array(
+             'onConnect' => NULL,
+             '_status' => 2,
+             'onMessage' => NULL,
+             'onClose' => 
+            array (
+              0 => NULL,
+              1 => 'onRegisterConnectionClose',
+            ),
+             'onError' => NULL,
+             'onBufferFull' => NULL,
+             'onBufferDrain' => NULL,
+             'protocol' => '\\Workerman\\Protocols\\Text',
+             'worker' => NULL,
+             'id' => 1,
+             '_id' => 0,
+             'maxSendBufferSize' => 1048576,
+             '_socket' => NULL,
+             '_sendBuffer' => '',
+             '_recvBuffer' => '',
+             '_currentPackageLength' => 0,
+             '_remoteAddress' => '127.0.0.1:1236',
+             '_isPaused' => false,
+          )),
+           'id' => 2,
+           'name' => 'ChatGateway',
+           'count' => 4,
+           'user' => 'root',
+           'group' => '',
+           'reusePort' => false,
+           'onWorkerStart' => 
+          array (
+            0 => NULL,
+            1 => 'onWorkerStart',
+          ),
+           'onConnect' => 
+          array (
+            0 => NULL,
+            1 => 'onClientConnect',
+          ),
+           'onMessage' => 
+          array (
+            0 => NULL,
+            1 => 'onClientMessage',
+          ),
+           'onClose' => NULL,
+           'onError' => NULL,
+           'onBufferFull' => NULL,
+           'onBufferDrain' => NULL,
+           'onWorkerStop' => 
+          array (
+            0 => NULL,
+            1 => 'onWorkerStop',
+          ),
+           'onWorkerReload' => NULL,
+           'transport' => 'tcp',
+           'connections' => 
+          array (
+            6 => NULL,
+          ),
+           'protocol' => '\\Workerman\\Protocols\\Websocket',
+           '_autoloadRootPath' => '/alidata/www/datingRpc/Applications/Chat',
+           '_mainSocket' => NULL,
+           '_socketName' => 'Websocket://0.0.0.0:7272',
+           '_context' => NULL,
+           'workerId' => '0000000018a7fbcc0000000057914433',
+        )),
+        1 => 'onClientClose',
+      ),
+       'onError' => NULL,
+       'onBufferFull' => NULL,
+       'onBufferDrain' => NULL,
+       'protocol' => '\\Workerman\\Protocols\\Websocket',
+       'worker' => 
+      GatewayWorker\Gateway::__set_state(array(
+         'lanIp' => '127.0.0.1',
+         'lanPort' => 2302,
+         'startPort' => 2300,
+         'registerAddress' => '127.0.0.1:1236',
+         'reloadable' => false,
+         'pingInterval' => 10,
+         'pingNotResponseLimit' => 0,
+         'pingData' => '{"type":"ping"}',
+         'secretKey' => '',
+         'router' => 
+        array (
+          0 => '\\GatewayWorker\\Gateway',
+          1 => 'routerBind',
+        ),
+         'protocolAccelerate' => false,
+         '_clientConnections' => 
+        array (
+          1 => NULL,
+        ),
+         '_uidConnections' => NULL,
+         '_groupConnections' => 
+        array (
+        ),
+         '_workerConnections' => 
+        array (
+          '127.0.0.1:ChatBusinessWorker:0' => 
+          Workerman\Connection\TcpConnection::__set_state(array(
+             'onMessage' => 
+            array (
+              0 => NULL,
+              1 => 'onWorkerMessage',
+            ),
+             'onClose' => 
+            array (
+              0 => NULL,
+              1 => 'onWorkerClose',
+            ),
+             'onError' => NULL,
+             'onBufferFull' => NULL,
+             'onBufferDrain' => NULL,
+             'protocol' => '\\Protocols\\GatewayProtocol',
+             'worker' => 
+            Workerman\Worker::__set_state(array(
+               'id' => 0,
+               'name' => 'none',
+               'count' => 1,
+               'user' => '',
+               'group' => '',
+               'reloadable' => true,
+               'reusePort' => false,
+               'onWorkerStart' => NULL,
+               'onConnect' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerConnect',
+              ),
+               'onMessage' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerMessage',
+              ),
+               'onClose' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerClose',
+              ),
+               'onError' => NULL,
+               'onBufferFull' => NULL,
+               'onBufferDrain' => NULL,
+               'onWorkerStop' => NULL,
+               'onWorkerReload' => NULL,
+               'transport' => 'tcp',
+               'connections' => 
+              array (
+                2 => 
+                Workerman\Connection\TcpConnection::__set_state(array(
+                   'onMessage' => 
+                  array (
+                    0 => NULL,
+                    1 => 'onWorkerMessage',
+                  ),
+                   'onClose' => 
+                  array (
+                    0 => NULL,
+                    1 => 'onWorkerClose',
+                  ),
+                   'onError' => NULL,
+                   'onBufferFull' => NULL,
+                   'onBufferDrain' => NULL,
+                   'protocol' => '\\Protocols\\GatewayProtocol',
+                   'worker' => NULL,
+                   'id' => 2,
+                   '_id' => 2,
+                   'maxSendBufferSize' => 52428800,
+                   '_socket' => NULL,
+                   '_sendBuffer' => '',
+                   '_recvBuffer' => '',
+                   '_currentPackageLength' => 0,
+                   '_status' => 2,
+                   '_remoteAddress' => '127.0.0.1:39698',
+                   '_isPaused' => false,
+                   'authorized' => true,
+                   'key' => '127.0.0.1:ChatBusinessWorker:3',
+                )),
+                3 => 
+                Workerman\Connection\TcpConnection::__set_state(array(
+                   'onMessage' => 
+                  array (
+                    0 => NULL,
+                    1 => 'onWorkerMessage',
+                  ),
+                   'onClose' => 
+                  array (
+                    0 => NULL,
+                    1 => 'onWorkerClose',
+                  ),
+                   'onError' => NULL,
+                   'onBufferFull' => NULL,
+                   'onBufferDrain' => NULL,
+                   'protocol' => '\\Protocols\\GatewayProtocol',
+                   'worker' => NULL,
+                   'id' => 3,
+                   '_id' => 3,
+                   'maxSendBufferSize' => 52428800,
+                   '_socket' => NULL,
+                   '_sendBuffer' => '',
+                   '_recvBuffer' => '',
+                   '_currentPackageLength' => 0,
+                   '_status' => 2,
+                   '_remoteAddress' => '127.0.0.1:39706',
+                   '_isPaused' => false,
+                   'authorized' => true,
+                   'key' => '127.0.0.1:ChatBusinessWorker:1',
+                )),
+                4 => NULL,
+                5 => 
+                Workerman\Connection\TcpConnection::__set_state(array(
+                   'onMessage' => 
+                  array (
+                    0 => NULL,
+                    1 => 'onWorkerMessage',
+                  ),
+                   'onClose' => 
+                  array (
+                    0 => NULL,
+                    1 => 'onWorkerClose',
+                  ),
+                   'onError' => NULL,
+                   'onBufferFull' => NULL,
+                   'onBufferDrain' => NULL,
+                   'protocol' => '\\Protocols\\GatewayProtocol',
+                   'worker' => NULL,
+                   'id' => 5,
+                   '_id' => 5,
+                   'maxSendBufferSize' => 52428800,
+                   '_socket' => NULL,
+                   '_sendBuffer' => '',
+                   '_recvBuffer' => '',
+                   '_currentPackageLength' => 0,
+                   '_status' => 2,
+                   '_remoteAddress' => '127.0.0.1:39720',
+                   '_isPaused' => false,
+                   'authorized' => true,
+                   'key' => '127.0.0.1:ChatBusinessWorker:2',
+                )),
+              ),
+               'protocol' => '\\Protocols\\GatewayProtocol',
+               '_autoloadRootPath' => '/alidata/www/datingRpc/GatewayWorker',
+               '_mainSocket' => NULL,
+               '_socketName' => 'GatewayProtocol://127.0.0.1:2302',
+               '_context' => NULL,
+               'workerId' => '0000000018a7fbdf0000000057914433',
+            )),
+             'id' => 4,
+             '_id' => 4,
+             'maxSendBufferSize' => 52428800,
+             '_socket' => NULL,
+             '_sendBuffer' => '',
+             '_recvBuffer' => '',
+             '_currentPackageLength' => 0,
+             '_status' => 2,
+             '_remoteAddress' => '127.0.0.1:39714',
+             '_isPaused' => false,
+             'authorized' => true,
+             'key' => '127.0.0.1:ChatBusinessWorker:0',
+          )),
+          '127.0.0.1:ChatBusinessWorker:1' => 
+          Workerman\Connection\TcpConnection::__set_state(array(
+             'onMessage' => 
+            array (
+              0 => NULL,
+              1 => 'onWorkerMessage',
+            ),
+             'onClose' => 
+            array (
+              0 => NULL,
+              1 => 'onWorkerClose',
+            ),
+             'onError' => NULL,
+             'onBufferFull' => NULL,
+             'onBufferDrain' => NULL,
+             'protocol' => '\\Protocols\\GatewayProtocol',
+             'worker' => 
+            Workerman\Worker::__set_state(array(
+               'id' => 0,
+               'name' => 'none',
+               'count' => 1,
+               'user' => '',
+               'group' => '',
+               'reloadable' => true,
+               'reusePort' => false,
+               'onWorkerStart' => NULL,
+               'onConnect' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerConnect',
+              ),
+               'onMessage' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerMessage',
+              ),
+               'onClose' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerClose',
+              ),
+               'onError' => NULL,
+               'onBufferFull' => NULL,
+               'onBufferDrain' => NULL,
+               'onWorkerStop' => NULL,
+               'onWorkerReload' => NULL,
+               'transport' => 'tcp',
+               'connections' => 
+              array (
+                2 => 
+                Workerman\Connection\TcpConnection::__set_state(array(
+                   'onMessage' => 
+                  array (
+                    0 => NULL,
+                    1 => 'onWorkerMessage',
+                  ),
+                   'onClose' => 
+                  array (
+                    0 => NULL,
+                    1 => 'onWorkerClose',
+                  ),
+                   'onError' => NULL,
+                   'onBufferFull' => NULL,
+                   'onBufferDrain' => NULL,
+                   'protocol' => '\\Protocols\\GatewayProtocol',
+                   'worker' => NULL,
+                   'id' => 2,
+                   '_id' => 2,
+                   'maxSendBufferSize' => 52428800,
+                   '_socket' => NULL,
+                   '_sendBuffer' => '',
+                   '_recvBuffer' => '',
+                   '_currentPackageLength' => 0,
+                   '_status' => 2,
+                   '_remoteAddress' => '127.0.0.1:39698',
+                   '_isPaused' => false,
+                   'authorized' => true,
+                   'key' => '127.0.0.1:ChatBusinessWorker:3',
+                )),
+                3 => NULL,
+                4 => 
+                Workerman\Connection\TcpConnection::__set_state(array(
+                   'onMessage' => 
+                  array (
+                    0 => NULL,
+                    1 => 'onWorkerMessage',
+                  ),
+                   'onClose' => 
+                  array (
+                    0 => NULL,
+                    1 => 'onWorkerClose',
+                  ),
+                   'onError' => NULL,
+                   'onBufferFull' => NULL,
+                   'onBufferDrain' => NULL,
+                   'protocol' => '\\Protocols\\GatewayProtocol',
+                   'worker' => NULL,
+                   'id' => 4,
+                   '_id' => 4,
+                   'maxSendBufferSize' => 52428800,
+                   '_socket' => NULL,
+                   '_sendBuffer' => '',
+                   '_recvBuffer' => '',
+                   '_currentPackageLength' => 0,
+                   '_status' => 2,
+                   '_remoteAddress' => '127.0.0.1:39714',
+                   '_isPaused' => false,
+                   'authorized' => true,
+                   'key' => '127.0.0.1:ChatBusinessWorker:0',
+                )),
+                5 => 
+                Workerman\Connection\TcpConnection::__set_state(array(
+                   'onMessage' => 
+                  array (
+                    0 => NULL,
+                    1 => 'onWorkerMessage',
+                  ),
+                   'onClose' => 
+                  array (
+                    0 => NULL,
+                    1 => 'onWorkerClose',
+                  ),
+                   'onError' => NULL,
+                   'onBufferFull' => NULL,
+                   'onBufferDrain' => NULL,
+                   'protocol' => '\\Protocols\\GatewayProtocol',
+                   'worker' => NULL,
+                   'id' => 5,
+                   '_id' => 5,
+                   'maxSendBufferSize' => 52428800,
+                   '_socket' => NULL,
+                   '_sendBuffer' => '',
+                   '_recvBuffer' => '',
+                   '_currentPackageLength' => 0,
+                   '_status' => 2,
+                   '_remoteAddress' => '127.0.0.1:39720',
+                   '_isPaused' => false,
+                   'authorized' => true,
+                   'key' => '127.0.0.1:ChatBusinessWorker:2',
+                )),
+              ),
+               'protocol' => '\\Protocols\\GatewayProtocol',
+               '_autoloadRootPath' => '/alidata/www/datingRpc/GatewayWorker',
+               '_mainSocket' => NULL,
+               '_socketName' => 'GatewayProtocol://127.0.0.1:2302',
+               '_context' => NULL,
+               'workerId' => '0000000018a7fbdf0000000057914433',
+            )),
+             'id' => 3,
+             '_id' => 3,
+             'maxSendBufferSize' => 52428800,
+             '_socket' => NULL,
+             '_sendBuffer' => '',
+             '_recvBuffer' => '',
+             '_currentPackageLength' => 0,
+             '_status' => 2,
+             '_remoteAddress' => '127.0.0.1:39706',
+             '_isPaused' => false,
+             'authorized' => true,
+             'key' => '127.0.0.1:ChatBusinessWorker:1',
+          )),
+          '127.0.0.1:ChatBusinessWorker:3' => 
+          Workerman\Connection\TcpConnection::__set_state(array(
+             'onMessage' => 
+            array (
+              0 => NULL,
+              1 => 'onWorkerMessage',
+            ),
+             'onClose' => 
+            array (
+              0 => NULL,
+              1 => 'onWorkerClose',
+            ),
+             'onError' => NULL,
+             'onBufferFull' => NULL,
+             'onBufferDrain' => NULL,
+             'protocol' => '\\Protocols\\GatewayProtocol',
+             'worker' => 
+            Workerman\Worker::__set_state(array(
+               'id' => 0,
+               'name' => 'none',
+               'count' => 1,
+               'user' => '',
+               'group' => '',
+               'reloadable' => true,
+               'reusePort' => false,
+               'onWorkerStart' => NULL,
+               'onConnect' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerConnect',
+              ),
+               'onMessage' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerMessage',
+              ),
+               'onClose' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerClose',
+              ),
+               'onError' => NULL,
+               'onBufferFull' => NULL,
+               'onBufferDrain' => NULL,
+               'onWorkerStop' => NULL,
+               'onWorkerReload' => NULL,
+               'transport' => 'tcp',
+               'connections' => 
+              array (
+                2 => NULL,
+                3 => 
+                Workerman\Connection\TcpConnection::__set_state(array(
+                   'onMessage' => 
+                  array (
+                    0 => NULL,
+                    1 => 'onWorkerMessage',
+                  ),
+                   'onClose' => 
+                  array (
+                    0 => NULL,
+                    1 => 'onWorkerClose',
+                  ),
+                   'onError' => NULL,
+                   'onBufferFull' => NULL,
+                   'onBufferDrain' => NULL,
+                   'protocol' => '\\Protocols\\GatewayProtocol',
+                   'worker' => NULL,
+                   'id' => 3,
+                   '_id' => 3,
+                   'maxSendBufferSize' => 52428800,
+                   '_socket' => NULL,
+                   '_sendBuffer' => '',
+                   '_recvBuffer' => '',
+                   '_currentPackageLength' => 0,
+                   '_status' => 2,
+                   '_remoteAddress' => '127.0.0.1:39706',
+                   '_isPaused' => false,
+                   'authorized' => true,
+                   'key' => '127.0.0.1:ChatBusinessWorker:1',
+                )),
+                4 => 
+                Workerman\Connection\TcpConnection::__set_state(array(
+                   'onMessage' => 
+                  array (
+                    0 => NULL,
+                    1 => 'onWorkerMessage',
+                  ),
+                   'onClose' => 
+                  array (
+                    0 => NULL,
+                    1 => 'onWorkerClose',
+                  ),
+                   'onError' => NULL,
+                   'onBufferFull' => NULL,
+                   'onBufferDrain' => NULL,
+                   'protocol' => '\\Protocols\\GatewayProtocol',
+                   'worker' => NULL,
+                   'id' => 4,
+                   '_id' => 4,
+                   'maxSendBufferSize' => 52428800,
+                   '_socket' => NULL,
+                   '_sendBuffer' => '',
+                   '_recvBuffer' => '',
+                   '_currentPackageLength' => 0,
+                   '_status' => 2,
+                   '_remoteAddress' => '127.0.0.1:39714',
+                   '_isPaused' => false,
+                   'authorized' => true,
+                   'key' => '127.0.0.1:ChatBusinessWorker:0',
+                )),
+                5 => 
+                Workerman\Connection\TcpConnection::__set_state(array(
+                   'onMessage' => 
+                  array (
+                    0 => NULL,
+                    1 => 'onWorkerMessage',
+                  ),
+                   'onClose' => 
+                  array (
+                    0 => NULL,
+                    1 => 'onWorkerClose',
+                  ),
+                   'onError' => NULL,
+                   'onBufferFull' => NULL,
+                   'onBufferDrain' => NULL,
+                   'protocol' => '\\Protocols\\GatewayProtocol',
+                   'worker' => NULL,
+                   'id' => 5,
+                   '_id' => 5,
+                   'maxSendBufferSize' => 52428800,
+                   '_socket' => NULL,
+                   '_sendBuffer' => '',
+                   '_recvBuffer' => '',
+                   '_currentPackageLength' => 0,
+                   '_status' => 2,
+                   '_remoteAddress' => '127.0.0.1:39720',
+                   '_isPaused' => false,
+                   'authorized' => true,
+                   'key' => '127.0.0.1:ChatBusinessWorker:2',
+                )),
+              ),
+               'protocol' => '\\Protocols\\GatewayProtocol',
+               '_autoloadRootPath' => '/alidata/www/datingRpc/GatewayWorker',
+               '_mainSocket' => NULL,
+               '_socketName' => 'GatewayProtocol://127.0.0.1:2302',
+               '_context' => NULL,
+               'workerId' => '0000000018a7fbdf0000000057914433',
+            )),
+             'id' => 2,
+             '_id' => 2,
+             'maxSendBufferSize' => 52428800,
+             '_socket' => NULL,
+             '_sendBuffer' => '',
+             '_recvBuffer' => '',
+             '_currentPackageLength' => 0,
+             '_status' => 2,
+             '_remoteAddress' => '127.0.0.1:39698',
+             '_isPaused' => false,
+             'authorized' => true,
+             'key' => '127.0.0.1:ChatBusinessWorker:3',
+          )),
+          '127.0.0.1:ChatBusinessWorker:2' => 
+          Workerman\Connection\TcpConnection::__set_state(array(
+             'onMessage' => 
+            array (
+              0 => NULL,
+              1 => 'onWorkerMessage',
+            ),
+             'onClose' => 
+            array (
+              0 => NULL,
+              1 => 'onWorkerClose',
+            ),
+             'onError' => NULL,
+             'onBufferFull' => NULL,
+             'onBufferDrain' => NULL,
+             'protocol' => '\\Protocols\\GatewayProtocol',
+             'worker' => 
+            Workerman\Worker::__set_state(array(
+               'id' => 0,
+               'name' => 'none',
+               'count' => 1,
+               'user' => '',
+               'group' => '',
+               'reloadable' => true,
+               'reusePort' => false,
+               'onWorkerStart' => NULL,
+               'onConnect' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerConnect',
+              ),
+               'onMessage' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerMessage',
+              ),
+               'onClose' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerClose',
+              ),
+               'onError' => NULL,
+               'onBufferFull' => NULL,
+               'onBufferDrain' => NULL,
+               'onWorkerStop' => NULL,
+               'onWorkerReload' => NULL,
+               'transport' => 'tcp',
+               'connections' => 
+              array (
+                2 => 
+                Workerman\Connection\TcpConnection::__set_state(array(
+                   'onMessage' => 
+                  array (
+                    0 => NULL,
+                    1 => 'onWorkerMessage',
+                  ),
+                   'onClose' => 
+                  array (
+                    0 => NULL,
+                    1 => 'onWorkerClose',
+                  ),
+                   'onError' => NULL,
+                   'onBufferFull' => NULL,
+                   'onBufferDrain' => NULL,
+                   'protocol' => '\\Protocols\\GatewayProtocol',
+                   'worker' => NULL,
+                   'id' => 2,
+                   '_id' => 2,
+                   'maxSendBufferSize' => 52428800,
+                   '_socket' => NULL,
+                   '_sendBuffer' => '',
+                   '_recvBuffer' => '',
+                   '_currentPackageLength' => 0,
+                   '_status' => 2,
+                   '_remoteAddress' => '127.0.0.1:39698',
+                   '_isPaused' => false,
+                   'authorized' => true,
+                   'key' => '127.0.0.1:ChatBusinessWorker:3',
+                )),
+                3 => 
+                Workerman\Connection\TcpConnection::__set_state(array(
+                   'onMessage' => 
+                  array (
+                    0 => NULL,
+                    1 => 'onWorkerMessage',
+                  ),
+                   'onClose' => 
+                  array (
+                    0 => NULL,
+                    1 => 'onWorkerClose',
+                  ),
+                   'onError' => NULL,
+                   'onBufferFull' => NULL,
+                   'onBufferDrain' => NULL,
+                   'protocol' => '\\Protocols\\GatewayProtocol',
+                   'worker' => NULL,
+                   'id' => 3,
+                   '_id' => 3,
+                   'maxSendBufferSize' => 52428800,
+                   '_socket' => NULL,
+                   '_sendBuffer' => '',
+                   '_recvBuffer' => '',
+                   '_currentPackageLength' => 0,
+                   '_status' => 2,
+                   '_remoteAddress' => '127.0.0.1:39706',
+                   '_isPaused' => false,
+                   'authorized' => true,
+                   'key' => '127.0.0.1:ChatBusinessWorker:1',
+                )),
+                4 => 
+                Workerman\Connection\TcpConnection::__set_state(array(
+                   'onMessage' => 
+                  array (
+                    0 => NULL,
+                    1 => 'onWorkerMessage',
+                  ),
+                   'onClose' => 
+                  array (
+                    0 => NULL,
+                    1 => 'onWorkerClose',
+                  ),
+                   'onError' => NULL,
+                   'onBufferFull' => NULL,
+                   'onBufferDrain' => NULL,
+                   'protocol' => '\\Protocols\\GatewayProtocol',
+                   'worker' => NULL,
+                   'id' => 4,
+                   '_id' => 4,
+                   'maxSendBufferSize' => 52428800,
+                   '_socket' => NULL,
+                   '_sendBuffer' => '',
+                   '_recvBuffer' => '',
+                   '_currentPackageLength' => 0,
+                   '_status' => 2,
+                   '_remoteAddress' => '127.0.0.1:39714',
+                   '_isPaused' => false,
+                   'authorized' => true,
+                   'key' => '127.0.0.1:ChatBusinessWorker:0',
+                )),
+                5 => NULL,
+              ),
+               'protocol' => '\\Protocols\\GatewayProtocol',
+               '_autoloadRootPath' => '/alidata/www/datingRpc/GatewayWorker',
+               '_mainSocket' => NULL,
+               '_socketName' => 'GatewayProtocol://127.0.0.1:2302',
+               '_context' => NULL,
+               'workerId' => '0000000018a7fbdf0000000057914433',
+            )),
+             'id' => 5,
+             '_id' => 5,
+             'maxSendBufferSize' => 52428800,
+             '_socket' => NULL,
+             '_sendBuffer' => '',
+             '_recvBuffer' => '',
+             '_currentPackageLength' => 0,
+             '_status' => 2,
+             '_remoteAddress' => '127.0.0.1:39720',
+             '_isPaused' => false,
+             'authorized' => true,
+             'key' => '127.0.0.1:ChatBusinessWorker:2',
+          )),
+        ),
+         '_innerTcpWorker' => 
+        Workerman\Worker::__set_state(array(
+           'id' => 0,
+           'name' => 'none',
+           'count' => 1,
+           'user' => '',
+           'group' => '',
+           'reloadable' => true,
+           'reusePort' => false,
+           'onWorkerStart' => NULL,
+           'onConnect' => 
+          array (
+            0 => NULL,
+            1 => 'onWorkerConnect',
+          ),
+           'onMessage' => 
+          array (
+            0 => NULL,
+            1 => 'onWorkerMessage',
+          ),
+           'onClose' => 
+          array (
+            0 => NULL,
+            1 => 'onWorkerClose',
+          ),
+           'onError' => NULL,
+           'onBufferFull' => NULL,
+           'onBufferDrain' => NULL,
+           'onWorkerStop' => NULL,
+           'onWorkerReload' => NULL,
+           'transport' => 'tcp',
+           'connections' => 
+          array (
+            2 => 
+            Workerman\Connection\TcpConnection::__set_state(array(
+               'onMessage' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerMessage',
+              ),
+               'onClose' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerClose',
+              ),
+               'onError' => NULL,
+               'onBufferFull' => NULL,
+               'onBufferDrain' => NULL,
+               'protocol' => '\\Protocols\\GatewayProtocol',
+               'worker' => NULL,
+               'id' => 2,
+               '_id' => 2,
+               'maxSendBufferSize' => 52428800,
+               '_socket' => NULL,
+               '_sendBuffer' => '',
+               '_recvBuffer' => '',
+               '_currentPackageLength' => 0,
+               '_status' => 2,
+               '_remoteAddress' => '127.0.0.1:39698',
+               '_isPaused' => false,
+               'authorized' => true,
+               'key' => '127.0.0.1:ChatBusinessWorker:3',
+            )),
+            3 => 
+            Workerman\Connection\TcpConnection::__set_state(array(
+               'onMessage' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerMessage',
+              ),
+               'onClose' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerClose',
+              ),
+               'onError' => NULL,
+               'onBufferFull' => NULL,
+               'onBufferDrain' => NULL,
+               'protocol' => '\\Protocols\\GatewayProtocol',
+               'worker' => NULL,
+               'id' => 3,
+               '_id' => 3,
+               'maxSendBufferSize' => 52428800,
+               '_socket' => NULL,
+               '_sendBuffer' => '',
+               '_recvBuffer' => '',
+               '_currentPackageLength' => 0,
+               '_status' => 2,
+               '_remoteAddress' => '127.0.0.1:39706',
+               '_isPaused' => false,
+               'authorized' => true,
+               'key' => '127.0.0.1:ChatBusinessWorker:1',
+            )),
+            4 => 
+            Workerman\Connection\TcpConnection::__set_state(array(
+               'onMessage' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerMessage',
+              ),
+               'onClose' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerClose',
+              ),
+               'onError' => NULL,
+               'onBufferFull' => NULL,
+               'onBufferDrain' => NULL,
+               'protocol' => '\\Protocols\\GatewayProtocol',
+               'worker' => NULL,
+               'id' => 4,
+               '_id' => 4,
+               'maxSendBufferSize' => 52428800,
+               '_socket' => NULL,
+               '_sendBuffer' => '',
+               '_recvBuffer' => '',
+               '_currentPackageLength' => 0,
+               '_status' => 2,
+               '_remoteAddress' => '127.0.0.1:39714',
+               '_isPaused' => false,
+               'authorized' => true,
+               'key' => '127.0.0.1:ChatBusinessWorker:0',
+            )),
+            5 => 
+            Workerman\Connection\TcpConnection::__set_state(array(
+               'onMessage' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerMessage',
+              ),
+               'onClose' => 
+              array (
+                0 => NULL,
+                1 => 'onWorkerClose',
+              ),
+               'onError' => NULL,
+               'onBufferFull' => NULL,
+               'onBufferDrain' => NULL,
+               'protocol' => '\\Protocols\\GatewayProtocol',
+               'worker' => NULL,
+               'id' => 5,
+               '_id' => 5,
+               'maxSendBufferSize' => 52428800,
+               '_socket' => NULL,
+               '_sendBuffer' => '',
+               '_recvBuffer' => '',
+               '_currentPackageLength' => 0,
+               '_status' => 2,
+               '_remoteAddress' => '127.0.0.1:39720',
+               '_isPaused' => false,
+               'authorized' => true,
+               'key' => '127.0.0.1:ChatBusinessWorker:2',
+            )),
+          ),
+           'protocol' => '\\Protocols\\GatewayProtocol',
+           '_autoloadRootPath' => '/alidata/www/datingRpc/GatewayWorker',
+           '_mainSocket' => NULL,
+           '_socketName' => 'GatewayProtocol://127.0.0.1:2302',
+           '_context' => NULL,
+           'workerId' => '0000000018a7fbdf0000000057914433',
+        )),
+         '_onWorkerStart' => NULL,
+         '_onConnect' => NULL,
+         '_onMessage' => NULL,
+         '_onClose' => NULL,
+         '_onWorkerStop' => NULL,
+         '_startTime' => 1481182329,
+         '_gatewayPort' => '7272',
+         '_registerConnection' => 
+        Workerman\Connection\AsyncTcpConnection::__set_state(array(
+           'onConnect' => NULL,
+           '_status' => 2,
+           'onMessage' => NULL,
+           'onClose' => 
+          array (
+            0 => NULL,
+            1 => 'onRegisterConnectionClose',
+          ),
+           'onError' => NULL,
+           'onBufferFull' => NULL,
+           'onBufferDrain' => NULL,
+           'protocol' => '\\Workerman\\Protocols\\Text',
+           'worker' => NULL,
+           'id' => 1,
+           '_id' => 0,
+           'maxSendBufferSize' => 1048576,
+           '_socket' => NULL,
+           '_sendBuffer' => '',
+           '_recvBuffer' => '',
+           '_currentPackageLength' => 0,
+           '_remoteAddress' => '127.0.0.1:1236',
+           '_isPaused' => false,
+        )),
+         'id' => 2,
+         'name' => 'ChatGateway',
+         'count' => 4,
+         'user' => 'root',
+         'group' => '',
+         'reusePort' => false,
+         'onWorkerStart' => 
+        array (
+          0 => NULL,
+          1 => 'onWorkerStart',
+        ),
+         'onConnect' => 
+        array (
+          0 => NULL,
+          1 => 'onClientConnect',
+        ),
+         'onMessage' => 
+        array (
+          0 => NULL,
+          1 => 'onClientMessage',
+        ),
+         'onClose' => 
+        array (
+          0 => NULL,
+          1 => 'onClientClose',
+        ),
+         'onError' => NULL,
+         'onBufferFull' => NULL,
+         'onBufferDrain' => NULL,
+         'onWorkerStop' => 
+        array (
+          0 => NULL,
+          1 => 'onWorkerStop',
+        ),
+         'onWorkerReload' => NULL,
+         'transport' => 'tcp',
+         'connections' => 
+        array (
+          6 => NULL,
+        ),
+         'protocol' => '\\Workerman\\Protocols\\Websocket',
+         '_autoloadRootPath' => '/alidata/www/datingRpc/Applications/Chat',
+         '_mainSocket' => NULL,
+         '_socketName' => 'Websocket://0.0.0.0:7272',
+         '_context' => NULL,
+         'workerId' => '0000000018a7fbcc0000000057914433',
+      )),
+       'id' => 1,
+       '_id' => 6,
+       'maxSendBufferSize' => 1048576,
+       '_socket' => NULL,
+       '_sendBuffer' => '',
+       '_recvBuffer' => '',
+       '_currentPackageLength' => 0,
+       '_status' => 2,
+       '_remoteAddress' => '221.232.145.6:54403',
+       '_isPaused' => false,
+       'gatewayHeader' => 
+      array (
+        'local_ip' => 2130706433,
+        'local_port' => 2302,
+        'client_ip' => 3723006214,
+        'client_port' => 54403,
+        'gateway_port' => '7272',
+        'connection_id' => 1,
+        'flag' => 0,
+      ),
+       'session' => 'a:2:{s:3:"uid";s:1:"1";s:8:"username";s:1:"1";}',
+       'pingNotResponseCount' => -1,
+       'businessworker_address' => '127.0.0.1:ChatBusinessWorker:3',
+       'websocketHandshake' => true,
+       'websocketDataBuffer' => '',
+       'websocketCurrentFrameLength' => 0,
+       'websocketCurrentFrameBuffer' => '',
+       'websocketType' => '',
+       'uid' => '1',
+    )),
+  ),
+)
